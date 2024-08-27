@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.music-player {
+    margin-top: 70px;
+    background: linear-gradient(to bottom, #0033a0, #ffffff 50%, #cc0000);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+
+audio {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.album-cover {
+    width: 50%;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  
+}
+
+.lyrics {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.lyrics h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.lyrics p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
